@@ -12,9 +12,7 @@ const Quotes = ({ quote, author, getQuotes }) => {
 
           <div id="buttons">
             <div className="social-media">
-              <a href="#" id="tweet-quote">
                 <span><img src={twitterIcon} alt="" /></span>
-              </a>
             </div>
             <button onClick={handleClick} id="new-quote">New Quote</button>
           </div>
